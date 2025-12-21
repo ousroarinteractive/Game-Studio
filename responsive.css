@@ -1,0 +1,112 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+/* WRAPPER */
+.page-wrapper {
+  max-width: 192rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* HERO */
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+/* LOGO */
+.logo {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.logo img {
+  max-width: 30rem;
+}
+
+/* NAV */
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 4rem 0;
+}
+
+.main-nav button {
+  padding: 1.5rem 3rem;
+  font-size: 1.8rem;
+  background: transparent;
+  color: white;
+  border: 0.2rem solid white;
+  cursor: pointer;
+}
+
+.main-nav button:hover {
+  background: white;
+  color: black;
+}
+
+/* CONTENT */
+.content {
+  display: grid;
+  gap: 4rem;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+}
+
+/* FOOTER */
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 6rem 0;
+}
+
+.socials a {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
+
+/* TABLET */
+@media (max-width: 76.8rem) {
+  .main-nav {
+    flex-direction: column;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 48rem) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .logo img {
+    max-width: 22rem;
+  }
+}
+
+html {
+  font-size: 62.5%; /* 10px base */
+}
