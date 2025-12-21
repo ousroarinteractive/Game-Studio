@@ -18,7 +18,7 @@ body {
 
 /* WRAPPER */
 .page-wrapper {
-  max-width: 195rem;
+  max-width: 192rem;
   margin: 0 auto;
   padding: 2rem;
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .content img {
-  width: 105%;
+  width: 100%;
   height: auto;
 }
 
@@ -111,6 +111,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
