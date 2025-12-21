@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  font-family: FontData;
+  font-family: url(FontData.js);
+;
   background: #000;
   color: #fff;
 }
@@ -110,5 +111,6 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
