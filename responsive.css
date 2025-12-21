@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: url(FontData.js);
+  font-family: "Fugaz-One";
 ;
   background: #000;
   color: #fff;
@@ -111,6 +111,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
