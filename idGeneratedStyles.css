@@ -371,3 +371,60 @@ div._idGenStateHide div._idGen-Appearance-Click {
 div._idGenStateHide, div._idGenStateHide *{
 	visibility:hidden;
 }
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+/* MAIN WRAPPER */
+.page-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
+}
+
+/* SCALE THE WHOLE DESIGN */
+@media (max-width: 1920px) {
+  .page-wrapper {
+    transform: scale(calc(100vw / 1920));
+    transform-origin: top left;
+  }
+}
+
+/* IMAGES */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* BUTTONS TOUCH FRIENDLY */
+._idGenButton {
+  cursor: pointer;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  .page-wrapper {
+    transform: scale(calc(100vw / 1920));
+  }
+}
+
+/* VERY SMALL DEVICES */
+@media (max-width: 480px) {
+  .page-wrapper {
+    transform: scale(calc(100vw / 1920));
+  }
+}
+
