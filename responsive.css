@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: fugaz-one;
+  font-family: FontData;
   background: #000;
   color: #fff;
 }
@@ -110,4 +110,5 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
