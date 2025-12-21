@@ -18,9 +18,9 @@ body {
 
 /* WRAPPER */
 .page-wrapper {
-  max-width: 192rem;
+  max-width: 195rem;
   margin: 0 auto;
-  padding: 0rem;
+  padding: 2rem;
 }
 
 /* HERO */
@@ -111,6 +111,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
