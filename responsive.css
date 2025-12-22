@@ -99,11 +99,11 @@ body {
   display: flex;
   justify-content: center;
   gap: 2.5rem;
-  margin: 6rem 0;
+  margin: 3rem 0;
 }
 
 .copyr a {
-  font-size: 3.125rem;
+  font-size: 9rem;
   color: white;
   text-decoration: none;
 }
@@ -129,6 +129,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
