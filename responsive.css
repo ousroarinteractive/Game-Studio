@@ -64,7 +64,7 @@ body {
 /* CONTENT */
 .content {
   display: grid;
-  gap: 0rem;
+  gap: 4rem;
 }
 
 .content img {
@@ -111,6 +111,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
