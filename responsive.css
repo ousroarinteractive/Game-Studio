@@ -67,6 +67,11 @@ body {
   gap: 4rem;
 }
 
+.content video {
+  display: grid;
+  gap: 4rem;
+}
+
 .content img {
   width: 100%;
   height: auto;
@@ -111,6 +116,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
