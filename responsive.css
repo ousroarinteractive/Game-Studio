@@ -95,6 +95,19 @@ body {
   text-decoration: underline;
 }
 
+.copyr {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin: 6rem 0;
+}
+
+.copyr a {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+}
+
 /* TABLET */
 @media (max-width: 76.8rem) {
   .main-nav {
@@ -116,6 +129,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
