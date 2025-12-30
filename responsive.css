@@ -50,15 +50,15 @@ body {
 .main-nav button {
   padding: 1.5rem 3rem;
   font-size: 1.8rem;
-  background: transparent;
-  color: white;
-  border: 0.2rem solid white;
+  background: white;
+  color: black;
+  border: 0rem solid white;
   cursor: pointer;
 }
 
 .main-nav button:hover {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
 }
 
 /* CONTENT */
@@ -130,6 +130,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
