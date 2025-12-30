@@ -109,7 +109,7 @@ body {
 }
 
 /* TABLET */
-@media (max-width: 76.8rem) {
+@media (max-width: 70rem) {
   .main-nav {
     flex-direction: column;
     margin: 6rem 0;
@@ -130,6 +130,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
