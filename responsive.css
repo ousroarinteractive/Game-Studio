@@ -112,6 +112,7 @@ body {
 @media (max-width: 76.8rem) {
   .main-nav {
     flex-direction: column;
+    margin: 3rem 0;
   }
 }
 
@@ -129,6 +130,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
