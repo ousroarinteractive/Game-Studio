@@ -116,7 +116,7 @@ body {
 @media (max-width: 70rem) {
   .main-nav {
     flex-direction: column;
-    margin: 6rem 0;
+    margin: 6rem 3rem;
   }
 }
 
@@ -127,13 +127,14 @@ body {
   }
 
   .logo img {
-    max-width: 22rem;
+    max-width: 12rem;
   }
 }
 
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
