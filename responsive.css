@@ -43,9 +43,9 @@ body {
 .main-nav {
   display: flex;
   justify-content: center;
-  flex-direction: line;
+  /*flex-direction: line;
   margin: 6rem 0;  
-  justify-content: center;
+  justify-content: center;*/
   gap: 3rem;
 }
 
@@ -132,6 +132,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
