@@ -43,8 +43,12 @@ body {
 .main-nav {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  margin: 6rem 0;  
+  /*display: flex;
+  justify-content: center;
   gap: 3rem;
-  margin: 6rem 0;
+  margin: 6rem 0;*/
 }
 
 .main-nav button {
@@ -130,6 +134,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
