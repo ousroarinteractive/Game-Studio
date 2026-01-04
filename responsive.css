@@ -89,7 +89,7 @@ body {
   margin: 6rem 0;
 }
 
-.socials a {
+.socials button {
   font-size: 1.6rem;
   color: white;
   text-decoration: none;
@@ -101,7 +101,7 @@ body {
   cursor: pointer;
 }
 
-.socials a:hover {
+.socials button:hover {
   text-decoration: underline;
   background: black;
   color: white;
@@ -144,6 +144,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
