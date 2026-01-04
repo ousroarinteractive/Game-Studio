@@ -89,7 +89,7 @@ body {
   margin: 6rem 0;
 }
 
-.socials ax {
+.socialsx a {
   font-size: 1.6rem;
   color: white;
   text-decoration: none;
@@ -101,13 +101,13 @@ body {
   cursor: pointer;
 }
 
-.socials ax:hover {
+.socialsx a:hover {
   text-decoration: underline;
   background: black;
   color: white;
 }
 
-.socials ay {
+.socialsy a {
   font-size: 1.6rem;
   color: white;
   text-decoration: none;
@@ -119,13 +119,13 @@ body {
   cursor: pointer;
 }
 
-.socials ay:hover {
+.socialsy a:hover {
   text-decoration: underline;
   background: red;
   color: white;
 }
 
-.socials ai {
+.socialsi a {
   font-size: 1.6rem;
   color: white;
   text-decoration: none;
@@ -137,13 +137,13 @@ body {
   cursor: pointer;
 }
 
-.socials ai:hover {
+.socialsi a:hover {
   text-decoration: underline;
   background: orange;
   color: white;
 }
 
-.socials af {
+.socialsf a {
   font-size: 1.6rem;
   color: white;
   text-decoration: none;
@@ -155,7 +155,7 @@ body {
   cursor: pointer;
 }
 
-.socials af:hover {
+.socialsf a:hover {
   text-decoration: underline;
   background: blue;
   color: white;
@@ -196,6 +196,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
