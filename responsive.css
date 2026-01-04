@@ -89,7 +89,7 @@ body {
   margin: 6rem 0;
 }
 
-.socials a {
+.socials ax {
   font-size: 1.6rem;
   color: white;
   text-decoration: none;
@@ -101,9 +101,63 @@ body {
   cursor: pointer;
 }
 
-.socials a:hover {
+.socials ax:hover {
   text-decoration: underline;
   background: black;
+  color: white;
+}
+
+.socials ay {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  background: white;
+  color: black;
+  border: 0rem solid white;
+  border-radius: 25px; /* All corners rounded with 10px radius */
+  padding: 20px;  
+  cursor: pointer;
+}
+
+.socials ay:hover {
+  text-decoration: underline;
+  background: red;
+  color: white;
+}
+
+.socials ai {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  background: white;
+  color: black;
+  border: 0rem solid white;
+  border-radius: 25px; /* All corners rounded with 10px radius */
+  padding: 20px;  
+  cursor: pointer;
+}
+
+.socials ai:hover {
+  text-decoration: underline;
+  background: orange;
+  color: white;
+}
+
+.socials af {
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  background: white;
+  color: black;
+  border: 0rem solid white;
+  border-radius: 25px; /* All corners rounded with 10px radius */
+  padding: 20px;  
+  cursor: pointer;
+}
+
+.socials af:hover {
+  text-decoration: underline;
+  background: blue;
   color: white;
 }
 
@@ -142,6 +196,7 @@ body {
 html {
   font-size: 62.5%; /* 10px base */
 }
+
 
 
 
