@@ -176,6 +176,31 @@ html {
 }
 
 
+.scroll-container2 {
+  display: flex;               /* Align items in a row */
+  overflow-x: auto;            /* Enable horizontal scrolling */
+  white-space: nowrap;         /* Prevent items from wrapping */
+  gap: 15px;                   /* Space between images */
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+/* Optional: Style the images for consistency */
+.scroll-container2 img {
+  height: 200px;               /* Fix the height */
+  width: auto;                 /* Maintain aspect ratio */
+  display: block;
+  border-radius: 4px;
+  transition: transform 0.2s;
+}
+
+/* Optional: Add a hover effect */
+.scroll-container2 img:hover {
+  transform: scale(1.05);
+}
+
+
 
 
 
