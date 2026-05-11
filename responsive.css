@@ -183,7 +183,7 @@ html {
   gap: 15px;                   /* Space between images */
   padding: 10px;
   background-color: white;
-  opacity: 30%;
+  opacity: 0.3;
   border-radius: 8px;
 }
 
