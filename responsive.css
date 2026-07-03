@@ -188,7 +188,7 @@ html {
 
 /* Optional: Style the images for consistency */
 .scroll-container2 img {
-  height: 200px;               /* Fix the height */
+  height: auto;               /* Fix the height */
   width: auto;                 /* Maintain aspect ratio */
   display: block;
   border-radius: 4px;
