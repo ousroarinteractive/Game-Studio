@@ -180,18 +180,17 @@ html {
   display: flex;               /* Align items in a row */
   overflow-x: auto;            /* Enable horizontal scrolling */
   white-space: nowrap;         /* Prevent items from wrapping */
-  gap: 15px;                   /* Space between images */
-  padding: 10px;
+  gap: 20px;                   /* Space between images */
+  padding: 20px;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 8px;
 }
 
 /* Optional: Style the images for consistency */
 .scroll-container2 img {
-  height: 260px;               /* Fix the height */
+  height: auto;               /* Fix the height */
   width: auto;                 /* Maintain aspect ratio */
   display: block;
-  border-radius: 4px;
   transition: transform 0.2s;
 }
 
