@@ -189,7 +189,7 @@ html {
 /* Optional: Style the images for consistency */
 .scroll-container2 img {
   height: 200px;               /* Fix the height */
-  width: 100%;                 /* Maintain aspect ratio */
+  width: auto;                 /* Maintain aspect ratio */
   display: block;
   border-radius: 4px;
   transition: transform 0.2s;
